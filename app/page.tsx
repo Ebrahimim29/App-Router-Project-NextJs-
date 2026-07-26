@@ -1,5 +1,3 @@
-'use client';
-
 import ListGroupItemLink from "./components/ListGroupItemLink";
 import { ListGroup } from "flowbite-react";
 

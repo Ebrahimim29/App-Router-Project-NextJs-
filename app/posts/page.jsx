@@ -11,6 +11,12 @@ const getPostsService = async () => {
 const Page = async () => {
     const posts = await getPostsService()
 
+    async function create() {
+        'use server'
+
+        //...
+    }
+
     return (
         <div className="flex flex-col justify-center items-center min-h-screen">
             <BackButton/>

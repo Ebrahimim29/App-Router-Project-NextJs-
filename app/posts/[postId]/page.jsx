@@ -17,6 +17,7 @@ const getPostsService = async (postId) => {
     return post
 }
 
+export const revalidate = 30
 
 const Page = async ({ params }) => {
 
